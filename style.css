@@ -60,10 +60,7 @@ body{
   padding: 0.5rem;
   display: grid;
 }
-.box1,
-.box2,
-.box3,
-.box4 {
+.box {
   margin: 0.5rem;
   background-color: rgb(53, 107, 161);
 }
@@ -100,7 +97,10 @@ body{
 }
 
 @media only screen and (max-width: 600px) {
-  
+  body{
+    margin: 0.5rem;
+    width: 100%;
+  }
   .flex-container > nav {
     flex-direction: column;
   }
@@ -114,10 +114,7 @@ body{
     display: flex;
     flex-direction: column;
   }
-  .box1,
-  .box2,
-  .box3,
-  .box4 {
+  .box {
     background-color: rgb(59, 120, 131);
   }
   .box5 {
